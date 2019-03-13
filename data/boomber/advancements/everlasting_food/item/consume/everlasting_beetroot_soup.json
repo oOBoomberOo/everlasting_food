@@ -1,0 +1,17 @@
+{
+	"criteria": {
+		"consume": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"item": "minecraft:beetroot_soup",
+					"nbt": "{ucit:{id:\"everlasting_beetroot_soup\"}}"
+				}
+			}
+		}
+	},
+	"parent": "boomber:everlasting_food/item/consume/root",
+	"rewards": {
+		"function": "boomber:everlasting_food/item/consume/beetroot_soup"
+	}
+}

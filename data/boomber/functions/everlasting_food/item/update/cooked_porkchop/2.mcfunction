@@ -1,0 +1,4 @@
+execute as @s if entity @s[nbt={Inventory:[{Slot:2b, tag:{ucit:{id:"everlasting_cooked_porkchop", boomber:{everlasting_food:{stage:3} } }} }] }] run loot replace entity @s hotbar.2 loot boomber:everlasting_food/item/cooked_porkchop/cooked_porkchop
+execute as @s if entity @s[nbt={Inventory:[{Slot:2b, tag:{ucit:{id:"everlasting_cooked_porkchop", boomber:{everlasting_food:{stage:2} } }} }] }] run loot replace entity @s hotbar.2 loot boomber:everlasting_food/item/cooked_porkchop/3
+execute as @s if entity @s[nbt={Inventory:[{Slot:2b, tag:{ucit:{id:"everlasting_cooked_porkchop", boomber:{everlasting_food:{stage:1} } }} }] }] run loot replace entity @s hotbar.2 loot boomber:everlasting_food/item/cooked_porkchop/2
+execute as @s if entity @s[nbt={Inventory:[{Slot:2b, tag:{ucit:{id:"everlasting_cooked_porkchop", boomber:{everlasting_food:{stage:0} } }} }] }] run loot replace entity @s hotbar.2 loot boomber:everlasting_food/item/cooked_porkchop/1

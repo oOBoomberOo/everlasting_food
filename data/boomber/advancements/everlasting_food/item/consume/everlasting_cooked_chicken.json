@@ -1,0 +1,17 @@
+{
+	"criteria": {
+		"consume": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"item": "minecraft:cooked_chicken",
+					"nbt": "{ucit:{id:\"everlasting_cooked_chicken\"}}"
+				}
+			}
+		}
+	},
+	"parent": "boomber:everlasting_food/item/consume/root",
+	"rewards": {
+		"function": "boomber:everlasting_food/item/consume/cooked_chicken"
+	}
+}

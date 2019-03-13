@@ -1,0 +1,21 @@
+execute as @s[tag=boomber.everlasting_food.item_queue.apple] run function boomber:everlasting_food/player/queue/apple
+execute as @s[tag=boomber.everlasting_food.item_queue.mushroom_stew] run function boomber:everlasting_food/player/queue/mushroom_stew
+execute as @s[tag=boomber.everlasting_food.item_queue.bread] run function boomber:everlasting_food/player/queue/bread
+execute as @s[tag=boomber.everlasting_food.item_queue.cooked_porkchop] run function boomber:everlasting_food/player/queue/cooked_porkchop
+execute as @s[tag=boomber.everlasting_food.item_queue.cooked_cod] run function boomber:everlasting_food/player/queue/cooked_cod
+execute as @s[tag=boomber.everlasting_food.item_queue.cooked_salmon] run function boomber:everlasting_food/player/queue/cooked_salmon
+execute as @s[tag=boomber.everlasting_food.item_queue.cookie] run function boomber:everlasting_food/player/queue/cookie
+execute as @s[tag=boomber.everlasting_food.item_queue.melon_slice] run function boomber:everlasting_food/player/queue/melon_slice
+execute as @s[tag=boomber.everlasting_food.item_queue.dried_kelp] run function boomber:everlasting_food/player/queue/dried_kelp
+execute as @s[tag=boomber.everlasting_food.item_queue.cooked_beef] run function boomber:everlasting_food/player/queue/cooked_beef
+execute as @s[tag=boomber.everlasting_food.item_queue.cooked_chicken] run function boomber:everlasting_food/player/queue/cooked_chicken
+execute as @s[tag=boomber.everlasting_food.item_queue.rotten_flesh] run function boomber:everlasting_food/player/queue/rotten_flesh
+execute as @s[tag=boomber.everlasting_food.item_queue.carrot] run function boomber:everlasting_food/player/queue/carrot
+execute as @s[tag=boomber.everlasting_food.item_queue.baked_potato] run function boomber:everlasting_food/player/queue/baked_potato
+execute as @s[tag=boomber.everlasting_food.item_queue.pumpkin_pie] run function boomber:everlasting_food/player/queue/pumpkin_pie
+execute as @s[tag=boomber.everlasting_food.item_queue.cooked_rabbit] run function boomber:everlasting_food/player/queue/cooked_rabbit
+execute as @s[tag=boomber.everlasting_food.item_queue.rabbit_stew] run function boomber:everlasting_food/player/queue/rabbit_stew
+execute as @s[tag=boomber.everlasting_food.item_queue.cooked_mutton] run function boomber:everlasting_food/player/queue/cooked_mutton
+execute as @s[tag=boomber.everlasting_food.item_queue.beetroot_soup] run function boomber:everlasting_food/player/queue/beetroot_soup
+
+execute as @s run function boomber:everlasting_food/player/queue/reset_queue

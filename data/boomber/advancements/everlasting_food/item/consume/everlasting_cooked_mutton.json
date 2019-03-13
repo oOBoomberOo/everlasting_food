@@ -1,0 +1,17 @@
+{
+	"criteria": {
+		"consume": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"item": "minecraft:cooked_mutton",
+					"nbt": "{ucit:{id:\"everlasting_cooked_mutton\"}}"
+				}
+			}
+		}
+	},
+	"parent": "boomber:everlasting_food/item/consume/root",
+	"rewards": {
+		"function": "boomber:everlasting_food/item/consume/cooked_mutton"
+	}
+}

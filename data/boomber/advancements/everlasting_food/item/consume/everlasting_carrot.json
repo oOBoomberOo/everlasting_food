@@ -1,0 +1,17 @@
+{
+	"criteria": {
+		"consume": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"item": "minecraft:carrot",
+					"nbt": "{ucit:{id:\"everlasting_carrot\"}}"
+				}
+			}
+		}
+	},
+	"parent": "boomber:everlasting_food/item/consume/root",
+	"rewards": {
+		"function": "boomber:everlasting_food/item/consume/carrot"
+	}
+}

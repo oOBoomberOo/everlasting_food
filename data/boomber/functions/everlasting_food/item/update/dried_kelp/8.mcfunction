@@ -1,0 +1,4 @@
+execute as @s if entity @s[nbt={Inventory:[{Slot:8b, tag:{ucit:{id:"everlasting_dried_kelp", boomber:{everlasting_food:{stage:3} } }} }] }] run loot replace entity @s hotbar.8 loot boomber:everlasting_food/item/dried_kelp/dried_kelp
+execute as @s if entity @s[nbt={Inventory:[{Slot:8b, tag:{ucit:{id:"everlasting_dried_kelp", boomber:{everlasting_food:{stage:2} } }} }] }] run loot replace entity @s hotbar.8 loot boomber:everlasting_food/item/dried_kelp/3
+execute as @s if entity @s[nbt={Inventory:[{Slot:8b, tag:{ucit:{id:"everlasting_dried_kelp", boomber:{everlasting_food:{stage:1} } }} }] }] run loot replace entity @s hotbar.8 loot boomber:everlasting_food/item/dried_kelp/2
+execute as @s if entity @s[nbt={Inventory:[{Slot:8b, tag:{ucit:{id:"everlasting_dried_kelp", boomber:{everlasting_food:{stage:0} } }} }] }] run loot replace entity @s hotbar.8 loot boomber:everlasting_food/item/dried_kelp/1

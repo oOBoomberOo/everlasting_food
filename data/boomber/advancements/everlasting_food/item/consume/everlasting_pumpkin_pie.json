@@ -1,0 +1,17 @@
+{
+	"criteria": {
+		"consume": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"item": "minecraft:pumpkin_pie",
+					"nbt": "{ucit:{id:\"everlasting_pumpkin_pie\"}}"
+				}
+			}
+		}
+	},
+	"parent": "boomber:everlasting_food/item/consume/root",
+	"rewards": {
+		"function": "boomber:everlasting_food/item/consume/pumpkin_pie"
+	}
+}

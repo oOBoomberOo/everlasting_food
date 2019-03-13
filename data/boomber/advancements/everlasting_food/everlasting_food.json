@@ -1,0 +1,18 @@
+{
+	"display": {
+		"title": "Everlasting Food v1.0",
+		"description": "Perfect food for adventuring!",
+		"icon": {
+			"item": "minecraft:golden_carrot"
+		},
+		"announce_to_chat": false,
+		"show_toast": false
+	},
+	"parent": "boomber:boomber",
+	"criteria": {
+		"trigger": {
+			"trigger": "minecraft:tick"
+		}
+	
+	}
+}

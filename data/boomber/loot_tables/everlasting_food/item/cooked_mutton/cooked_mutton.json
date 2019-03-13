@@ -1,0 +1,26 @@
+{
+	"type": "minecraft:item",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": [
+								{"text": "Everlasting Cooked Mutton", "color": "gold", "italic": false}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{Enchantments:[{id:\"minecraft:unbreaking\", lvl:0}], HideFlags:1, ucit:{boomber:{everlasting_food:{stage:-1}}, id:\"everlasting_cooked_mutton\", from:\"boomber:everlasting_food\", author:[\"boomber\"]}}"
+						}
+					],
+					"name": "minecraft:cooked_mutton"
+				}
+			]
+		}
+	]
+}

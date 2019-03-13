@@ -1,0 +1,27 @@
+{
+	"type": "minecraft:item",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": [
+								{"text": "Everlasting Cookie", "color": "gold", "italic": false},
+								{"text": " [1/4]", "color": "red", "italic": false}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData: 8080025, Enchantments:[{id:\"minecraft:unbreaking\", lvl:0}], HideFlags:1, ucit:{boomber:{everlasting_food:{is_item:1b, stage:1}}, id:\"everlasting_cookie\", from:\"boomber:everlasting_food\", author:[\"boomber\"]}}"
+						}
+					],
+					"name": "minecraft:command_block"
+				}
+			]
+		}
+	]
+}

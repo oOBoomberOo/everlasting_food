@@ -1,0 +1,105 @@
+{
+	"type": "minecraft:item",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:everlasting_food/item/apple/apple",
+					"weight": 20
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:everlasting_food/item/baked_potato/baked_potato",
+					"weight": 12
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:everlasting_food/item/beetroot_soup/beetroot_soup",
+					"weight": 5
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:everlasting_food/item/bread/bread",
+					"weight": 15
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:everlasting_food/item/carrot/carrot",
+					"weight": 20
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:everlasting_food/item/cooked_beef/cooked_beef",
+					"weight": 5
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:everlasting_food/item/cooked_chicken/cooked_chicken",
+					"weight": 10
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:everlasting_food/item/cooked_cod/cooked_cod",
+					"weight": 10
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:everlasting_food/item/cooked_mutton/cooked_mutton",
+					"weight": 10
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:everlasting_food/item/cooked_porkchop/cooked_porkchop",
+					"weight": 5
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:everlasting_food/item/cooked_rabbit/cooked_rabbit",
+					"weight": 10
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:everlasting_food/item/cooked_salmon/cooked_salmon",
+					"weight": 10
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:everlasting_food/item/cookie/cookie",
+					"weight": 20
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:everlasting_food/item/dried_kelp/dried_kelp",
+					"weight": 19
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:everlasting_food/item/melon_slice/melon_slice",
+					"weight": 20
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:everlasting_food/item/mushroom_stew/mushroom_stew",
+					"weight": 10
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:everlasting_food/item/pumpkin_pie/pumpkin_pie",
+					"weight": 12
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:everlasting_food/item/rabbit_stew/rabbit_stew",
+					"weight": 12
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "boomber:everlasting_food/item/rotten_flesh/rotten_flesh",
+					"weight": 20
+				}
+			]
+		}
+	]
+}
